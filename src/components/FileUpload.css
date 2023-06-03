@@ -1,0 +1,55 @@
+.top {
+  margin: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: #1f52c0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.choose:hover {
+  background-color: #2d5bff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.textArea {
+  color: #fff;
+}
+
+.upload {
+  border: none;
+  background-color: #13aa52;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload:hover {
+  background-color: #13c264;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.upload:disabled,
+.upload[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+div {
+  padding: 5px 10px;
+}
